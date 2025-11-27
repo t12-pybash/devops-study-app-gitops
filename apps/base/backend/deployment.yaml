@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
         - name: backend
-          image: backend:latest
+          image: ghcr.io/t12-pybash/study-app-api:latest
           ports:
-            - containerPort: docker pull ghcr.io/t12-pybash/study-app-api:latest
+            - containerPort: 8000
           resources:
             limits:
               memory: "512Mi"
