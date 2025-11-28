@@ -8,6 +8,6 @@ namespace: study-app
 namePrefix: dev-
 images:
   - name: ghcr.io/t12-pybash/study-app-api
-    newTag: ""
+    newTag: "backend-v0.0.5"
   - name: ghcr.io/t12-pybash/study-app-web
     newTag: frontend-v0.2.0
